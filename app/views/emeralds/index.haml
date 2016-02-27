@@ -33,5 +33,5 @@
               .caption
                 %h4.pull-right= "$#{rand(100)}"
                 %h4
-                  %a{:href => "#"}= "#{(i+1).ordinalize} Product"
+                  =link_to "#{(i+1).ordinalize} Product", emerald_path(i)
                 %p This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
