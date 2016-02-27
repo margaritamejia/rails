@@ -1,0 +1,2 @@
+class EmeraldsController < ApplicationController
+end
